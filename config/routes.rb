@@ -2,7 +2,7 @@ require 'sidekiq/web'
 
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-    get 'api', to: 'api#index'
+    get 'api', to: 'apis#index'
     mount Sidekiq::Web => '/sidekiq'
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

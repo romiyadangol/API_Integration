@@ -16,6 +16,7 @@ gem "httparty"
 gem 'sidekiq'
 gem 'redis'
 gem 'sidekiq-scheduler'
+gem 'json'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
